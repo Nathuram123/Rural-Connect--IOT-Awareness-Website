@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Smart IoT solutions for rural agriculture, optimizing crop yields and sustainable farming practices">
+  <title>Agricultural IoT - IoT Rural Solutions</title>
+  <link rel="stylesheet" href="agri-style.css">
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=EB+Garamond:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Loading Overlay -->
+  <div id="loader">
+    <div class="loader-growth"></div>
+    <p>Sprouting Agricultural Insights...</p>
+  </div>
+
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="logo-section">
+        <a href="index.html" class="back-link">
+          <div class="logo-icon">◈</div>
+          <span>IoT Rural</span>
+        </a>
+        <span class="subpage-title">/ Agricultural IoT</span>
+      </div>
+      <nav id="nav-menu">
+       <a href="file:///C:/Users/Nikhil/Desktop/mmicroproject/index%20(1).html#solutions">Home</a>
+        <a href="#overview">Overview</a>
+        <a href="#growth-stages">Growth Stages</a>
+        <a href="#tools">Tools</a>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero Section with Growth Background -->
+  <section class="hero">
+    <div class="growth-bg"></div>
+    <div class="texture-overlay growth-texture"></div>
+    <div class="container">
+      <div class="hero-content">
+        <h1>Nurturing <span class="highlight">Agricultural IoT</span> for Abundant Harvests</h1>
+        <p>Empower farmers with IoT-driven precision agriculture, from soil health to crop monitoring, fostering sustainable yields and resilient rural economies.</p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary" onclick="scrollToSection('growth-stages')">Explore Growth</button>
+          <button class="btn btn-secondary" onclick="scrollToSection('contact')">Start Growing</button>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="farm-dashboard">
+          <h3>Harvest Preview</h3>
+          <div class="dashboard-mock">
+            <div class="dash-item">Soil Moisture: 72%</div>
+            <div class="dash-item">Crop Health: Vigorous</div>
+            <div class="dash-item">Yield Forecast: +28%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Overview Section -->
+  <section class="overview" id="overview">
+    <div class="texture-overlay light"></div>
+    <div class="container">
+      <div class="overview-content">
+        <h2>Roots of Sustainable Farming</h2>
+        <p>In rural landscapes, agriculture demands precision. Our IoT ecosystem delivers soil insights, weather integration, and automated care to cultivate thriving fields.</p>
+      </div>
+      <div class="overview-roots">
+        <div class="root-card" data-aos="fade-up">
+          <div class="root-icon">🌱</div>
+          <h3>Soil Vitality</h3>
+          <p>Deep sensors measure nutrients, pH, and moisture for tailored irrigation.</p>
+        </div>
+        <div class="root-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="root-icon">☀️</div>
+          <h3>Weather Wisdom</h3>
+          <p>Hyper-local forecasts guide planting and protect against extremes.</p>
+        </div>
+        <div class="root-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="root-icon">🍂</div>
+          <h3>Crop Vigilance</h3>
+          <p>Drone and camera feeds detect pests early, ensuring healthy growth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Growth Stages Section -->
+  <section class="growth-stages" id="growth-stages">
+    <div class="texture-overlay medium"></div>
+    <div class="container">
+      <div class="stages-header">
+        <h2>From Seed to <span class="highlight">Harvest</span></h2>
+        <p>The lifecycle of smart farming, powered by IoT at every stage</p>
+      </div>
+      <div class="stages-cycle">
+        <div class="stage-item" data-aos="fade-right">
+          <div class="stage-number">1</div>
+          <h3>Planting Prep</h3>
+          <p>Soil mapping and seed optimization for ideal germination.</p>
+        </div>
+        <div class="stage-item" data-aos="fade-left" data-aos-delay="200">
+          <div class="stage-number">2</div>
+          <h3>Nurture Phase</h3>
+          <p>Automated watering and nutrient dosing based on real-time data.</p>
+        </div>
+        <div class="stage-item" data-aos="fade-right" data-aos-delay="400">
+          <div class="stage-number">3</div>
+          <h3>Maturity Watch</h3>
+          <p>Growth tracking with AI to maximize yield potential.</p>
+        </div>
+        <div class="stage-item" data-aos="fade-left" data-aos-delay="600">
+          <div class="stage-number">4</div>
+          <h3>Harvest Ready</h3>
+          <p>Ripeness alerts and logistics integration for timely reaping.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tools" id="tools">
+    <div class="texture-overlay light"></div>
+    <div class="container">
+      <div class="tools-header">
+        <h2>Essential <span class="highlight">Tools</span></h2>
+        <p>Handpicked for the farmer's toolkit, blending tech with tradition</p>
+      </div>
+      <div class="tools-garden">
+        <div class="tool-card garden-card" data-aos="zoom-in">
+          <div class="tool-icon">📊</div>
+          <h3>Soil Analytics</h3>
+          <p>Comprehensive testing for fertility and health indicators.</p>
+        </div>
+        <div class="tool-card garden-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="tool-icon">🌤️</div>
+          <h3>Climate Companion</h3>
+          <p>Personalized alerts for frost, rain, and optimal sowing windows.</p>
+        </div>
+        <div class="tool-card garden-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="tool-icon">🐛</div>
+          <h3>Pest Patrol</h3>
+          <p>Early detection systems with eco-friendly intervention guides.</p>
+        </div>
+        <div class="tool-card garden-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="tool-icon">📱</div>
+          <h3>Farm Journal</h3>
+          <p>Digital logs and yield trackers for data-driven decisions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    // AOS Initialization
+    AOS.init({
+      duration: 1200,
+      once: true,
+      offset: 120,
+    });
+
+    // Loading Screen
+    window.addEventListener('load', () => {
+      const loader = document.getElementById('loader');
+      loader.style.opacity = '0';
+      setTimeout(() => loader.style.display = 'none', 500);
+    });
+
+    // Menu Toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    menuToggle.addEventListener('click', () => navMenu.classList.toggle('active'));
+    navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => navMenu.classList.remove('active')));
+
+    // Smooth Scroll
+    function scrollToSection(sectionId) {
+      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Header Scroll Effect
+    window.addEventListener('scroll', () => {
+      document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Growth Animation
+    function createGrowthAnimation() {
+      const growths = document.querySelectorAll('.growth-bg, .loader-growth');
+      growths.forEach(growth => {
+        growth.style.animation = 'grow 7s ease-in-out infinite';
+      });
+    }
+    createGrowthAnimation();
+
+    // Form Submit
+    function handleSubmit(event) {
+      event.preventDefault();
+      const btn = event.target.querySelector('.submit-btn');
+      const originalText = btn.textContent;
+      btn.textContent = 'Germinating...';
+      btn.disabled = true;
+      setTimeout(() => {
+        alert('Your farm\'s growth plan is taking root! We\'ll nurture a response soon.');
+        event.target.reset();
+        btn.textContent = originalText;
+        btn.disabled = false;
+      }, 2000);
+    }
+
+    // Mock Dashboard Update
+    setInterval(() => {
+      const items = document.querySelectorAll('.dash-item');
+      items.forEach((item, index) => {
+        const moistures = ['68%', '81%', '55%', '74%'];
+        const healths = ['Thriving', 'Stable', 'Needs Care', 'Optimal'];
+        const yields = ['+22%', '+35%', '+19%', '+31%'];
+        if (index === 0) item.textContent = `Soil Moisture: ${moistures[Math.floor(Math.random() * moistures.length)]}`;
+        else if (index === 1) item.textContent = `Crop Health: ${healths[Math.floor(Math.random() * healths.length)]}`;
+        else item.textContent = `Yield Forecast: ${yields[Math.floor(Math.random() * yields.length)]}`;
+      });
+    }, 4000);
+  </script>
+</body>
+</html>
